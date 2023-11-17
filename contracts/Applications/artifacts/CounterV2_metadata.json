@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "dec",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "inc",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Applications/UpgradeableProxy.sol": "CounterV2"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Applications/UpgradeableProxy.sol": {
+			"keccak256": "0xce258fcc6280162e9747ac5a3e1dc6b1178a500c0802a8b97825ce52ec55ad8a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4e006d813feb45feb642a78935b3181931dbf7f86ab856a7e2581b951ca37c79",
+				"dweb:/ipfs/QmY6b9GEPUzLkzceMjXeGtUeuwgSs5V7zhVcNmbQFzqTAJ"
+			]
+		}
+	},
+	"version": 1
+}
